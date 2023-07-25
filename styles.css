@@ -98,18 +98,13 @@ hr{
     text-indent: 10px;
     font-family: 'Inter', sans-serif;
 }
-.box4{
-    position: relative;
-    top: 20px;
-    right: 100px;
-}
-.box5{
-    position: relative;
-    top: 20px;
-    right: 200px;
-}
 .box:hover{
     box-shadow: 0 0 2px 2px rgb(235, 232, 232);
+}
+.boxNone{
+    height: 250px;
+    width: 250px;
+    border: none;
 }
 .page2{
     opacity: 0.6;
@@ -328,15 +323,8 @@ hr{
     .box{
         margin-left: -140px;
     }
-    .box4{
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-    .box5{
-        position: relative;
-        left: 0px;
-        top: 0px;
+    .boxNone{
+        display: none;
     }
     .container2{
         width: 320px;
